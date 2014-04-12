@@ -1,12 +1,32 @@
-= Sublime Tortoise
+= Sublime Tortoise3 (for Sublime Text 3)
 
-Keyboard shortcuts and menu entries for using TortoiseSVN, TortoiseGit and
-TortoiseHg from within [[http://www.sublimetext.com/2|Sublime Text 2]].
+Keyboard shortcuts for using TortoiseSVN, TortoiseGit and
+TortoiseHg from within [[http://www.sublimetext.com/3|Sublime Text 3]].
 
-Please see http://wbond.net/sublime_packages/tortoise for install instructions,
-screenshots and documentation.
+This is an adaptaion of the brilliant http://wbond.net/sublime_packages/tortoise 
+which [[https://github.com/wbond|Will Bond]] no longer supports.
 
-== License
+== Usage
+
+=== Basic commands
+[ctrl+alt+v] [ctrl+alt+e] explore
+[ctrl+alt+v] [ctrl+alt+c] commit
+[ctrl+alt+v] [ctrl+alt+s] status
+[ctrl+alt+v] [ctrl+alt+u] sync
+[ctrl+alt+v] [ctrl+alt+l] log
+[ctrl+alt+v] [ctrl+alt+f] diff
+[ctrl+alt+v] [ctrl+alt+g] log
+[ctrl+alt+v] [ctrl+alt+m] blame
+[ctrl+alt+v] [ctrl+alt+x] explore
+[ctrl+alt+v] [ctrl+alt+a] add
+[ctrl+alt+v] [ctrl+alt+r] remove
+[ctrl+alt+v] [ctrl+alt+t] revert
+
+=== New commands
+[ctrl+alt+v] [ctrl+alt+b] *bash* - opens git bash in current working directory
+[ctrl+alt+v] [ctrl+alt+p] *push* - git only, push to remote
+
+== Original License
 
 All of Sublime Tortoise is licensed under the MIT license shown below. The
 supporting files contained within the svn folder are licensed according to
