@@ -1,5 +1,10 @@
 [
 /*
+	Context Menus were causing "file not found" errors in ST3 which
+	I could not resolve, except by removing the menus altogether.
+	I don't use the menus so it's not a problem for me, but 
+	maybe somebody will work it out
+
 	{ "caption": "-" },
 	{ "caption": "Tortoise Push…", "command": "tortoise_push", "args": {"paths": []} },
 	{ "caption": "Tortoise Pull…", "command": "tortoise_push", "args": {"paths": []} },
