@@ -17,22 +17,22 @@ just clone this repo into your packages folder manually:
 == Usage
 
 === New commands
-* [ctrl+alt+v] [ctrl+alt+**b**] //git only command// opens **git bash** in current working directory
-* [ctrl+alt+v] [ctrl+alt+**p**] //git only command// **push** to remote
+* [<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>v</kbd>] [<kbd>ctrl</kbd>+<kbd>alt</kbd>+**<kbd>b</kbd>**] //git only command// opens **git bash** in current working directory
+* [<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>v</kbd>] [<kbd>ctrl</kbd>+<kbd>alt</kbd>+**<kbd>p</kbd>**] //git only command// **push** to remote
 
 === Basic commands
-* [ctrl+alt+v] [ctrl+alt+**e**] explore
-* [ctrl+alt+v] [ctrl+alt+**c**] commit
-* [ctrl+alt+v] [ctrl+alt+**s**] status
-* [ctrl+alt+v] [ctrl+alt+**u**] sync
-* [ctrl+alt+v] [ctrl+alt+**l**] log
-* [ctrl+alt+v] [ctrl+alt+**f**] diff
-* [ctrl+alt+v] [ctrl+alt+**g**] log
-* [ctrl+alt+v] [ctrl+alt+**m**] blame
-* [ctrl+alt+v] [ctrl+alt+**x**] explore
-* [ctrl+alt+v] [ctrl+alt+**a**] add
-* [ctrl+alt+v] [ctrl+alt+**r**] remove
-* [ctrl+alt+v] [ctrl+alt+**t**] revert
+* [<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>v</kbd>] [<kbd>ctrl</kbd>+<kbd>alt</kbd>+**<kbd>e</kbd>**] explore
+* [<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>v</kbd>] [<kbd>ctrl</kbd>+<kbd>alt</kbd>+**<kbd>c</kbd>**] commit
+* [<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>v</kbd>] [<kbd>ctrl</kbd>+<kbd>alt</kbd>+**<kbd>s</kbd>**] status
+* [<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>v</kbd>] [<kbd>ctrl</kbd>+<kbd>alt</kbd>+**<kbd>u</kbd>**] sync
+* [<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>v</kbd>] [<kbd>ctrl</kbd>+<kbd>alt</kbd>+**<kbd>l</kbd>**] log
+* [<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>v</kbd>] [<kbd>ctrl</kbd>+<kbd>alt</kbd>+**<kbd>f</kbd>**] diff
+* [<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>v</kbd>] [<kbd>ctrl</kbd>+<kbd>alt</kbd>+**<kbd>g</kbd>**] log
+* [<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>v</kbd>] [<kbd>ctrl</kbd>+<kbd>alt</kbd>+**<kbd>m</kbd>**] blame
+* [<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>v</kbd>] [<kbd>ctrl</kbd>+<kbd>alt</kbd>+**<kbd>x</kbd>**] explore
+* [<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>v</kbd>] [<kbd>ctrl</kbd>+<kbd>alt</kbd>+**<kbd>a</kbd>**] add
+* [<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>v</kbd>] [<kbd>ctrl</kbd>+<kbd>alt</kbd>+**<kbd>r</kbd>**] remove
+* [<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>v</kbd>] [<kbd>ctrl</kbd>+<kbd>alt</kbd>+**<kbd>t</kbd>**] revert
 
 == Original License
 
