@@ -101,6 +101,23 @@ class TortoiseCommitCommand(sublime_plugin.WindowCommand, TortoiseCommand):
         return os.path.isdir(path)
 
 
+class TortoisePushCommand(sublime_plugin.WindowCommand, TortoiseCommand):
+    @handles_not_found
+    def run(self, paths=None):
+        path = self.get_path(paths)
+        self.get_vcs(path).push(path if os.path.isdir(path) else None)
+
+    @invisible_when_not_found
+    def is_visible(self, paths=None):
+        if not self.menus_enabled():
+            return False
+        path = self.get_path(paths)
+        if not path:
+            return False
+        self.get_vcs(path)
+        return os.path.isdir(path)
+
+
 class TortoiseStatusCommand(sublime_plugin.WindowCommand, TortoiseCommand):
     @handles_not_found
     def run(self, paths=None):
@@ -333,6 +350,7 @@ class Tortoise():
 
     def process_status(self, vcs, path):
         global file_status_cache
+        status = ''
         settings = sublime.load_settings('Tortoise.sublime-settings')
         if path in file_status_cache and file_status_cache[path]['time'] > \
                 time.time() - settings.get('cache_length'):
@@ -370,6 +388,18 @@ class TortoiseProc(Tortoise):
         path = self.root_dir if path == None else path
         path = os.path.relpath(path, self.root_dir)
         ForkGui('"' + self.path + '" /command:commit /path:"%s"' % path,
+            self.root_dir)
+
+    def push(self, path=None):
+        path = self.root_dir if path == None else path
+        path = os.path.relpath(path, self.root_dir)
+        ForkGui('"' + self.path + '" /command:push /path:"%s"' % path,
+            self.root_dir)
+
+    def pull(self, path=None):
+        path = self.root_dir if path == None else path
+        path = os.path.relpath(path, self.root_dir)
+        ForkGui('"' + self.path + '" /command:pull /path:"%s"' % path,
             self.root_dir)
 
     def log(self, path=None):
