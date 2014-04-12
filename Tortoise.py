@@ -60,7 +60,7 @@ def handles_not_found(fn):
     def handler(self, *args, **kwargs):
         try:
             fn(self, *args, **kwargs)
-        except (NotFoundError) as (exception):
+        except (NotFoundError) as exception:
             sublime.error_message('Tortoise: ' + str(exception))
     return handler
 
@@ -337,7 +337,7 @@ class Tortoise():
         if path in file_status_cache and file_status_cache[path]['time'] > \
                 time.time() - settings.get('cache_length'):
             if settings.get('debug'):
-                print 'Fetching cached status for %s' % path
+                print('Fetching cached status for %s' % path)
             return file_status_cache[path]['status']
 
         if settings.get('debug'):
@@ -345,7 +345,7 @@ class Tortoise():
 
         try:
             status = vcs.check_status(path)
-        except (Exception) as (exception):
+        except (Exception) as exception:
             sublime.error_message(str(exception))
 
         file_status_cache[path] = {
@@ -354,8 +354,7 @@ class Tortoise():
         }
 
         if settings.get('debug'):
-            print 'Fetching status for %s in %s seconds' % (path,
-                str(time.time() - start_time))
+            print('Fetching status for %s in %s seconds' % (path, str(time.time() - start_time)))
 
         return status
 
