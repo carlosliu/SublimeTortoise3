@@ -6,7 +6,19 @@ TortoiseHg from within [[http://www.sublimetext.com/3|Sublime Text 3]].
 This is an adaptaion of the brilliant http://wbond.net/sublime_packages/tortoise 
 which [[https://github.com/wbond|Will Bond]] no longer supports.
 
+== Installation
+
+This plugin is not yet in the Package Control list, so you'll have to clone
+this repo into your packages folder manually.
+
+* Point to Preferences > Browse Packages
+* git clone https://github.com/fyneworks/SublimeTortoise3
+
 == Usage
+
+=== New commands
+* [ctrl+alt+v] [ctrl+alt+b] *bash* - opens git bash in current working directory
+* [ctrl+alt+v] [ctrl+alt+p] *push* - git only, push to remote
 
 === Basic commands
 * [ctrl+alt+v] [ctrl+alt+e] explore
@@ -21,10 +33,6 @@ which [[https://github.com/wbond|Will Bond]] no longer supports.
 * [ctrl+alt+v] [ctrl+alt+a] add
 * [ctrl+alt+v] [ctrl+alt+r] remove
 * [ctrl+alt+v] [ctrl+alt+t] revert
-
-=== New commands
-* [ctrl+alt+v] [ctrl+alt+b] *bash* - opens git bash in current working directory
-* [ctrl+alt+v] [ctrl+alt+p] *push* - git only, push to remote
 
 == Original License
 
