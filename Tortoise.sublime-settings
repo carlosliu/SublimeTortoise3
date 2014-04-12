@@ -13,7 +13,8 @@
 	"cache_length": 5,
 
 	// If context-menu entries should be enabled
-	"enable_menus": true,
+	"enable_menus": false,
+	// this is causing errors in sublime 3
 
 	// If debug messages should be printed to the console
 	"debug": false
