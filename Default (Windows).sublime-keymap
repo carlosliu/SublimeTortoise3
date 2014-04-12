@@ -1,4 +1,6 @@
 [
+	{ "keys": ["ctrl+alt+b"], "command": "tortoise_bash" },
+	{ "keys": ["ctrl+alt+v","ctrl+alt+b"], "command": "tortoise_bash" },
 	{ "keys": ["ctrl+alt+v","ctrl+alt+e"], "command": "tortoise_explore" },
 	{ "keys": ["ctrl+alt+v","ctrl+alt+c"], "command": "tortoise_commit" },
 	{ "keys": ["ctrl+alt+v","ctrl+alt+p"], "command": "tortoise_push" },
