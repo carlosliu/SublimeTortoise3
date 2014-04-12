@@ -8,8 +8,8 @@ which [[https://github.com/wbond|Will Bond]] no longer supports.
 
 == Installation
 
-This plugin is not yet in the Package Control list, so you'll have to clone
-this repo into your packages folder manually.
+This plugin is not yet in the Package Control directory yet. But you can
+just clone this repo into your packages folder manually:
 
 * Point to Preferences > Browse Packages
 * git clone https://github.com/fyneworks/SublimeTortoise3
