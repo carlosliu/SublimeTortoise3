@@ -17,22 +17,22 @@ just clone this repo into your packages folder manually:
 == Usage
 
 === New commands
-* [ctrl+alt+v] [ctrl+alt+b] *bash* - opens git bash in current working directory
-* [ctrl+alt+v] [ctrl+alt+p] *push* - git only, push to remote
+* [ctrl+alt+v] [ctrl+alt+**b**] //git only command// opens **git bash** in current working directory
+* [ctrl+alt+v] [ctrl+alt+**p**] //git only command// **push** to remote
 
 === Basic commands
-* [ctrl+alt+v] [ctrl+alt+e] explore
-* [ctrl+alt+v] [ctrl+alt+c] commit
-* [ctrl+alt+v] [ctrl+alt+s] status
-* [ctrl+alt+v] [ctrl+alt+u] sync
-* [ctrl+alt+v] [ctrl+alt+l] log
-* [ctrl+alt+v] [ctrl+alt+f] diff
-* [ctrl+alt+v] [ctrl+alt+g] log
-* [ctrl+alt+v] [ctrl+alt+m] blame
-* [ctrl+alt+v] [ctrl+alt+x] explore
-* [ctrl+alt+v] [ctrl+alt+a] add
-* [ctrl+alt+v] [ctrl+alt+r] remove
-* [ctrl+alt+v] [ctrl+alt+t] revert
+* [ctrl+alt+v] [ctrl+alt+**e**] explore
+* [ctrl+alt+v] [ctrl+alt+**c**] commit
+* [ctrl+alt+v] [ctrl+alt+**s**] status
+* [ctrl+alt+v] [ctrl+alt+**u**] sync
+* [ctrl+alt+v] [ctrl+alt+**l**] log
+* [ctrl+alt+v] [ctrl+alt+**f**] diff
+* [ctrl+alt+v] [ctrl+alt+**g**] log
+* [ctrl+alt+v] [ctrl+alt+**m**] blame
+* [ctrl+alt+v] [ctrl+alt+**x**] explore
+* [ctrl+alt+v] [ctrl+alt+**a**] add
+* [ctrl+alt+v] [ctrl+alt+**r**] remove
+* [ctrl+alt+v] [ctrl+alt+**t**] revert
 
 == Original License
 
