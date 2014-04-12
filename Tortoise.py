@@ -461,8 +461,8 @@ class TortoiseGit(TortoiseProc):
         if binary_path != None:
             self.path = binary_path
         else:
-            self.set_binary_path('TortoiseGit\\bin\\TortoiseProc.exe',
-                'TortoiseProc.exe', 'git_tortoiseproc_path')
+            self.set_binary_path('TortoiseGit\\bin\\TortoiseGitProc.exe',
+                'TortoiseGitProc.exe', 'git_tortoiseproc_path')
 
     def sync(self, path=None):
         path = self.root_dir if path == None else path
