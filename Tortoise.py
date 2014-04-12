@@ -5,7 +5,6 @@ import subprocess
 import re
 import time
 
-
 class RepositoryNotFoundError(Exception):
     pass
 

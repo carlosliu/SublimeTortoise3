@@ -1,4 +1,5 @@
 [
+/*
 	{ "caption": "-" },
 	{ "caption": "Tortoise Push…", "command": "tortoise_push", "args": {"paths": []} },
 	{ "caption": "Tortoise Pull…", "command": "tortoise_push", "args": {"paths": []} },
@@ -13,4 +14,5 @@
 	{ "caption": "Tortoise Revert…", "command": "tortoise_revert", "args": {"paths": []} },
 	{ "caption": "Tortoise Remove…", "command": "tortoise_remove", "args": {"paths": []} },
 	{ "caption": "-", "id": "end" }
+*/
 ]

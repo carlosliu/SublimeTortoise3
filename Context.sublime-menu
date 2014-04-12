@@ -1,4 +1,5 @@
 [
+/*
     { "caption": "-" },
     { "command": "tortoise_log", "args": {"paths": true}, "caption": "Tortoise Log…" },
     { "command": "tortoise_blame", "args": {"paths": true}, "caption": "Tortoise Blame…" },
@@ -7,4 +8,5 @@
     { "command": "tortoise_revert", "args": {"paths": true}, "caption": "Tortoise Revert…" },
     { "command": "tortoise_remove", "args": {"paths": true}, "caption": "Tortoise Remove…" },
     { "caption": "-", "id": "end" }
+*/
 ]
