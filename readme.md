@@ -8,7 +8,7 @@ which [Will Bond](https://github.com/wbond) no longer supports.
 
 ## Installation
 
-This plugin is not yet in the Package Control directory yet. But you can
+This plugin is not in the Package Control directory yet. But you can
 just clone this repo into your packages folder manually:
 
 * Point to Preferences > Browse Packages
